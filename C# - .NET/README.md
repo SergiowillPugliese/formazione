@@ -42,6 +42,7 @@ Leggi i moduli nell'ordine della sezione. Ogni modulo ha:
 | 2.1 | [Collezioni](./02-collezioni-e-linq/01-collezioni.md) | List, HashSet, Dictionary |
 | 2.2 | [LINQ](./02-collezioni-e-linq/02-linq-base.md) | Select, Where, ToDictionary, Any, GroupBy, First |
 | 2.3 | [IEnumerable vs IQueryable](./02-collezioni-e-linq/03-ienumerable-vs-iqueryable.md) | Differenza in memoria vs database, EF Core |
+| 2.4 | [Ordinamento](./02-collezioni-e-linq/04-ordinamento.md) | OrderBy, ThenBy, nullable sorting, Dynamic LINQ |
 
 ## Sezione 3 — Async e Concorrenza
 > Come funziona il codice asincrono in .NET.
@@ -50,6 +51,7 @@ Leggi i moduli nell'ordine della sezione. Ogni modulo ha:
 |---|--------|-----------------|
 | 3.1 | [Async e await](./03-async-e-concorrenza/01-async-await.md) | Task, async, await, CancellationToken |
 | 3.2 | [Task.WhenAll](./03-async-e-concorrenza/02-task-whenall.md) | Parallelismo, WhenAll, WhenAny |
+| 3.3 | [Race Conditions](./03-async-e-concorrenza/03-race-conditions.md) | Concorrenza, validazione app vs DB constraint |
 
 ## Sezione 4 — Ecosistema .NET
 > Le librerie e i pattern standard che trovi in ogni progetto .NET.
@@ -61,6 +63,7 @@ Leggi i moduli nell'ordine della sezione. Ogni modulo ha:
 | 4.3 | [EF Core](./04-ecosistema-dotnet/03-ef-core.md) | DbContext, Include, AsNoTracking, migrations |
 | 4.4 | [Logging](./04-ecosistema-dotnet/04-logging.md) | ILogger, livelli di log, structured logging |
 | 4.5 | [Configuration](./04-ecosistema-dotnet/05-configuration.md) | appsettings.json, IOptions\<T\> |
+| 4.6 | [Unique Index e Constraint](./04-ecosistema-dotnet/06-unique-index-e-constraint.md) | HasIndex, IsUnique, filtered index, DbUpdateException |
 
 ## Sezione 5 — Architettura
 > Come è strutturato un progetto .NET professionale.
@@ -71,3 +74,5 @@ Leggi i moduli nell'ordine della sezione. Ogni modulo ha:
 | 5.2 | [Pattern Proxy cross-modulo](./05-architettura/02-pattern-proxy.md) | Isolamento moduli, proxy, anti-corruption layer |
 | 5.3 | [Repository Pattern](./05-architettura/03-repository-pattern.md) | Interfacce repository, astrazione dal DB |
 | 5.4 | [Domain Events](./05-architettura/04-domain-events.md) | Eventi di dominio, event-driven architecture |
+| 5.5 | [Unit of Work](./05-architettura/05-unit-of-work.md) | Atomicità, transazioni, commit, rollback |
+| 5.6 | [Bulk Operations](./05-architettura/06-bulk-operations.md) | Partial update vs replace-all, validazione payload, atomicità |
