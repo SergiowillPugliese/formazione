@@ -76,3 +76,6 @@ Leggi i moduli nell'ordine della sezione. Ogni modulo ha:
 | 5.4 | [Domain Events](./05-architettura/04-domain-events.md) | Eventi di dominio, event-driven architecture |
 | 5.5 | [Unit of Work](./05-architettura/05-unit-of-work.md) | Atomicità, transazioni, commit, rollback |
 | 5.6 | [Bulk Operations](./05-architettura/06-bulk-operations.md) | Partial update vs replace-all, validazione payload, atomicità |
+
+
+CULO
